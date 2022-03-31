@@ -1,0 +1,34 @@
+{
+  "name": "hcs-school-bruteforcer",
+  "version": "1.0.0",
+  "description": "A Discord bot for bruteforcing Korean students' school name.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dollar3795/HCS-School-Bruteforcer.git"
+  },
+  "keywords": [
+    "hcs",
+    "selfcheck",
+    "discord",
+    "discordjs"
+  ],
+  "author": "Dollar3795",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Dollar3795/HCS-School-Bruteforcer/issues"
+  },
+  "homepage": "https://github.com/Dollar3795/HCS-School-Bruteforcer#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "fetch-cookie": "^2.0.3",
+    "https": "^1.0.0",
+    "https-proxy-agent": "^5.0.0",
+    "jsencrypt": "^3.2.1",
+    "node-fetch": "^3.2.2"
+  },
+  "type": "module"
+}
