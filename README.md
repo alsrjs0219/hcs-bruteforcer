@@ -9,3 +9,6 @@ module list:
 - jsencrypt
 - fetch-cookie
 - chalk
+
+https://nefew.kr/discord
+join my discord server!
