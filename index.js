@@ -1,7 +1,7 @@
 //config start
 
 const adminList = [
-    //"Your Discord Account (EX. Nefew#1234) + 작성후 "
+    //"Your Discord Account (EX. Nefew#1234) + 작성후 주석제거 바람. "
 ];
 
 const gameName = "https://nefew.kr/";
