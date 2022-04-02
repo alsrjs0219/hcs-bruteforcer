@@ -1,7 +1,7 @@
 //config start
 
 const adminList = [
-    "Nefew#1234"
+    //"Your Discord Account (EX. Nefew#1234) + 작성후 주석제거 바람. "
 ];
 
 const gameName = "https://nefew.kr/";
@@ -398,7 +398,7 @@ Client.on("messageCreate", async message => {
         });
     };
 
-    if (message.content == prefix + "명령어생성" && adminList.includes(message.author.tag)) {
+    if (message.content == prefix + "명령어생성") {
         try {
             for (const command of await message.guild.commands.fetch()) {
                 await message.guild.commands.delete(command[0]);
